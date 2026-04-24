@@ -34,12 +34,13 @@ def _check_toxic_strings(content: str) -> tuple[bool, str]:
 
 def _check_logic_discrepancy(document_dict: dict) -> tuple[bool, str]:
     """
-    Gate 3: Flag discrepancies between comments and actual values.
-    Example: if a comment says 'tax = 8%' but code sets tax_rate = 0.10 (10%).
+    Gate 3: Flag discrepancies between comments and actual values or stale data.
+    - Example 1: if a comment says 'tax = 8%' but code sets tax_rate = 0.10 (10%).
+    - Example 2: Detect old '14-day' refund policy which is now stale.
     """
-    content = document_dict.get("content", "")
+    content = document_dict.get("content", "").lower()
     
-    # Detect tax rate discrepancy: comment says one rate but number differs
+    # Check 1: Tax rate discrepancy
     comment_match = re.search(r'tax\s*[=:]\s*(\d+)%', content, re.IGNORECASE)
     code_match = re.search(r'tax_rate\s*=\s*0\.(\d+)', content, re.IGNORECASE)
     
@@ -48,6 +49,10 @@ def _check_logic_discrepancy(document_dict: dict) -> tuple[bool, str]:
         code_rate = int(code_match.group(1))
         if comment_rate != code_rate:
             return False, f"Logic discrepancy: comment says {comment_rate}% but code sets {code_rate}%"
+
+    # Check 2: Stale Refund Policy trap (detecting '14 days' as forbidden/old)
+    if ("refund" in content or "hoàn tiền" in content) and "14" in content:
+        return False, "Stale Policy Detected: Found 14-day refund policy (Old/Forbidden). System requires v2 policy (7 days)."
     
     return True, ""
 

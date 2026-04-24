@@ -8,6 +8,8 @@
 |---|---|
 | **Họ và tên** | Cao Chí Hải |
 | **Mã học viên** | 2A202600011 |
+| **Email** | [caochihai1710@gmail.com](mailto:caochihai1710@gmail.com) |
+| **GitHub Username** | [caochihai](https://github.com/caochihai) |
 | **GitHub Repository** | [lab-2-data-pipeline-multi-modal-minefield-cchai](https://github.com/GDGoCFPTU-Lab2-3/lab-2-data-pipeline-multi-modal-minefield-cchai) |
 | **Lab** | Codelab 03 v1 — Multi-Modal Minefield (Advanced Edition) |
 

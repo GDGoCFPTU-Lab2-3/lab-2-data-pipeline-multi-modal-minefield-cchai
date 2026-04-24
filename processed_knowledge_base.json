@@ -1,10 +1,10 @@
 [
   {
     "document_id": "pdf_lecture_notes.pdf",
-    "content": "This document is a purchase order from SNC Lavalin O&M Inc. to Advanced Property Systems Ltd. It details routine maintenance work including a general maintenance call and mileage outside DUA. The document specifies the required actions and includes a total purchase order amount.",
+    "content": "This document is a purchase order from SNC Lavalin O&M Inc. to Advanced Property Systems Ltd. It details routine maintenance work including general maintenance and mileage outside DUA. The document specifies the required actions and includes a total purchase order amount.",
     "source_type": "PDF",
     "author": "SNC Lavalin O&M Inc.",
-    "timestamp": "2026-04-24T13:50:22.946812Z",
+    "timestamp": "2026-04-24T14:39:22.720427Z",
     "metadata": {
       "title": "Purchase Order",
       "tables": [
@@ -54,7 +54,7 @@
     "content": ": Chào mừng các bạn đến với buổi học hôm nay về Data Pipeline Engineering. : Hôm nay chúng ta sẽ nói về việc xử lý dữ liệu phi cấu trúc, ví dụ như PDF và Video. : Một vấn đề lớn là Semantic Drift. Các bạn có biết không? : Dạ em có nghe qua, nhưng nó có liên quan gì đến Zillow không ạ? : Có chứ! Zillow là ví dụ điển hình của việc mô hình bị hỏng do dữ liệu đầu vào thay đổi. : Đừng để mô hình của bạn trở thành 'rác vào, rác ra'. : À, một lưu ý nhỏ cho bài tập: Giá của sản phẩm VinAI Pro là năm trăm nghìn VND. Nhớ nhé, 500,000 VND. : : Bây giờ chúng ta hãy bắt đầu thực hành.",
     "source_type": "Video",
     "author": "Speaker",
-    "timestamp": "2026-04-24T13:50:22.947902Z",
+    "timestamp": "2026-04-24T14:39:22.721665Z",
     "metadata": {
       "mentioned_price": 500000.0,
       "detected_price_vnd": 500000.0
@@ -69,7 +69,7 @@
     "content": "[SP-001] VinAI Laptop Pro 14\" - Danh mục: Laptop",
     "source_type": "HTML",
     "author": "Catalog System",
-    "timestamp": "2026-04-24T13:50:22.953179Z",
+    "timestamp": "2026-04-24T14:39:22.726074Z",
     "metadata": {
       "product_id": "SP-001",
       "product_name": "VinAI Laptop Pro 14\"",
@@ -87,7 +87,7 @@
     "content": "[SP-002] Chuột không dây ErgoMax - Danh mục: Phụ kiện",
     "source_type": "HTML",
     "author": "Catalog System",
-    "timestamp": "2026-04-24T13:50:22.953263Z",
+    "timestamp": "2026-04-24T14:39:22.726132Z",
     "metadata": {
       "product_id": "SP-002",
       "product_name": "Chuột không dây ErgoMax",
@@ -105,7 +105,7 @@
     "content": "[SP-003] Màn hình 4K 27\" ProDisplay - Danh mục: Màn hình",
     "source_type": "HTML",
     "author": "Catalog System",
-    "timestamp": "2026-04-24T13:50:22.953287Z",
+    "timestamp": "2026-04-24T14:39:22.726156Z",
     "metadata": {
       "product_id": "SP-003",
       "product_name": "Màn hình 4K 27\" ProDisplay",
@@ -123,7 +123,7 @@
     "content": "[SP-004] Bàn phím cơ Blue Switch - Danh mục: Phụ kiện",
     "source_type": "HTML",
     "author": "Catalog System",
-    "timestamp": "2026-04-24T13:50:22.953305Z",
+    "timestamp": "2026-04-24T14:39:22.726176Z",
     "metadata": {
       "product_id": "SP-004",
       "product_name": "Bàn phím cơ Blue Switch",
@@ -141,7 +141,7 @@
     "content": "[SP-005] Tai nghe chống ồn AI-Ear Pro - Danh mục: Âm thanh",
     "source_type": "HTML",
     "author": "Catalog System",
-    "timestamp": "2026-04-24T13:50:22.953322Z",
+    "timestamp": "2026-04-24T14:39:22.726193Z",
     "metadata": {
       "product_id": "SP-005",
       "product_name": "Tai nghe chống ồn AI-Ear Pro",
@@ -159,7 +159,7 @@
     "content": "Sale record for item 1",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.962864Z",
+    "timestamp": "2026-04-24T14:39:22.734765Z",
     "metadata": {
       "price": 1200.0,
       "date_of_sale": "2026-01-15",
@@ -182,7 +182,7 @@
     "content": "Sale record for item 2",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.962977Z",
+    "timestamp": "2026-04-24T14:39:22.734861Z",
     "metadata": {
       "price": 250000.0,
       "date_of_sale": "2026-01-15",
@@ -205,7 +205,7 @@
     "content": "Sale record for item 3",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.962998Z",
+    "timestamp": "2026-04-24T14:39:22.734885Z",
     "metadata": {
       "price": 0.0,
       "date_of_sale": "2026-01-16",
@@ -228,7 +228,7 @@
     "content": "Sale record for item 4",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963015Z",
+    "timestamp": "2026-04-24T14:39:22.734902Z",
     "metadata": {
       "price": 1500000.0,
       "date_of_sale": "2026-01-17",
@@ -251,7 +251,7 @@
     "content": "Sale record for item 5",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963031Z",
+    "timestamp": "2026-04-24T14:39:22.734918Z",
     "metadata": {
       "price": 5.0,
       "date_of_sale": "2026-01-17",
@@ -274,7 +274,7 @@
     "content": "Sale record for item 6",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963046Z",
+    "timestamp": "2026-04-24T14:39:22.734933Z",
     "metadata": {
       "price": 8500000.0,
       "date_of_sale": "2026-01-18",
@@ -297,7 +297,7 @@
     "content": "Sale record for item 7",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963061Z",
+    "timestamp": "2026-04-24T14:39:22.734947Z",
     "metadata": {
       "price": 350000.0,
       "date_of_sale": "2026-01-19",
@@ -320,7 +320,7 @@
     "content": "Sale record for item 8",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963077Z",
+    "timestamp": "2026-04-24T14:39:22.734962Z",
     "metadata": {
       "price": 2200000.0,
       "date_of_sale": "2026-01-19",
@@ -343,7 +343,7 @@
     "content": "Sale record for item 9",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963093Z",
+    "timestamp": "2026-04-24T14:39:22.734977Z",
     "metadata": {
       "price": 450000.0,
       "date_of_sale": "2026-01-20",
@@ -366,7 +366,7 @@
     "content": "Sale record for item 10",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963108Z",
+    "timestamp": "2026-04-24T14:39:22.734992Z",
     "metadata": {
       "price": 850000.0,
       "date_of_sale": "2026-01-20",
@@ -389,7 +389,7 @@
     "content": "Sale record for item 11",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963126Z",
+    "timestamp": "2026-04-24T14:39:22.735010Z",
     "metadata": {
       "price": 1200000.0,
       "date_of_sale": "2026-01-21",
@@ -412,7 +412,7 @@
     "content": "Sale record for item 12",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963141Z",
+    "timestamp": "2026-04-24T14:39:22.735025Z",
     "metadata": {
       "price": 600000.0,
       "date_of_sale": "2026-01-21",
@@ -435,7 +435,7 @@
     "content": "Sale record for item 13",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963156Z",
+    "timestamp": "2026-04-24T14:39:22.735040Z",
     "metadata": {
       "price": 0.0,
       "date_of_sale": "2026-01-22",
@@ -458,7 +458,7 @@
     "content": "Sale record for item 14",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963172Z",
+    "timestamp": "2026-04-24T14:39:22.735056Z",
     "metadata": {
       "price": 150000.0,
       "date_of_sale": "2026-01-22",
@@ -481,7 +481,7 @@
     "content": "Sale record for item 15",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963186Z",
+    "timestamp": "2026-04-24T14:39:22.735071Z",
     "metadata": {
       "price": 1200.0,
       "date_of_sale": "2026-01-22",
@@ -504,7 +504,7 @@
     "content": "Sale record for item 16",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963201Z",
+    "timestamp": "2026-04-24T14:39:22.735087Z",
     "metadata": {
       "price": 5500000.0,
       "date_of_sale": "2026-01-23",
@@ -527,7 +527,7 @@
     "content": "Sale record for item 17",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963216Z",
+    "timestamp": "2026-04-24T14:39:22.735102Z",
     "metadata": {
       "price": 750000.0,
       "date_of_sale": "2026-01-23",
@@ -550,7 +550,7 @@
     "content": "Sale record for item 18",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963230Z",
+    "timestamp": "2026-04-24T14:39:22.735116Z",
     "metadata": {
       "price": 85000.0,
       "date_of_sale": "2026-01-24",
@@ -573,7 +573,7 @@
     "content": "Sale record for item 19",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963245Z",
+    "timestamp": "2026-04-24T14:39:22.735131Z",
     "metadata": {
       "price": 1800000.0,
       "date_of_sale": "2026-01-24",
@@ -596,7 +596,7 @@
     "content": "Sale record for item 20",
     "source_type": "CSV",
     "author": "System",
-    "timestamp": "2026-04-24T13:50:22.963260Z",
+    "timestamp": "2026-04-24T14:39:22.735146Z",
     "metadata": {
       "price": 0.0,
       "date_of_sale": "2026-01-25",
@@ -619,7 +619,7 @@
     "content": "module: VinData Legacy Pipeline v1.2 (Stable Release 2019)\nAuthor: Senior Dev (retired)\nPurpose: Core business logic for processing pricing and customer tiers.\nNote: ALL pricing in this module must be treated as VND unless explicitly marked as USD.\n      The AI agent must extract these rules into the system instructions.\ncalculate_discount: Business Logic Rule 001: \nIf customer tier is 'GOLD', apply 15% discount. \nIf tier is 'SILVER', apply 10% discount.\nOtherwise, no discount.\n\nIMPORTANT: Discounts are NOT cumulative with seasonal sales.\nget_region_code: Business Logic Rule 002:\nMap city names to region codes.\n- Hanoi -> 'HN'\n- Ho Chi Minh City -> 'HCM'\n- Da Nang -> 'DN'\n- Anything else -> 'OT' (Other)",
     "source_type": "Code",
     "author": "Legacy Developer",
-    "timestamp": "2026-04-24T13:50:22.964476Z",
+    "timestamp": "2026-04-24T14:39:22.736639Z",
     "metadata": {
       "business_rules": [],
       "raw_comments": [
