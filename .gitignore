@@ -1,0 +1,55 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ===========================
+# Virtual Environments
+# ===========================
+.venv/
+venv/
+env/
+ENV/
+
+# ===========================
+# Environment Variables (BẮT BUỘC - Không push API key lên GitHub!)
+# ===========================
+.env
+.env.local
+.env.*.local
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===========================
+# OS files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Project-specific outputs
+# ===========================
+# File output của pipeline - KHÔNG push lên (có thể chứa dữ liệu nhạy cảm)
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
